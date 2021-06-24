@@ -1,0 +1,25 @@
+.project{
+    background-color: rgb(43, 183, 226);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    .item{
+    position: relative;
+    }
+    .item p{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+    }
+    .item:hover p{
+        opacity: 1;
+    }
+    .item:hover img{
+        opacity: 0.2;
+    }
+    p{
+        font-size: 25px;
+    }
